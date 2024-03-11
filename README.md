@@ -31,13 +31,16 @@ Ensure you have the following installed on your system:
 - Node `v18.5.0`
 - NPM `v10.2.3`
 
-### Building and running demo
+## Installation
 
 Install dependencies
 
 ```
 npm install
 ```
+
+
+## Run Application
 
 to build everything
 
@@ -48,8 +51,10 @@ npm run build
 to run demo
 
 ```
-npm run dev
+npm run serve
 ```
+
+## Run tests
 
 to run test
 
