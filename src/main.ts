@@ -5,9 +5,6 @@ import './assets/css/tailwind.css';
 
 const appComponent = defineCustomElement(AppComponent);
 
-customElements.define('app-component', appComponent);
+customElements.define('counter-card', appComponent);
 
-
-// const app = createApp(AppComponent);
-// app.mount('#app')
 

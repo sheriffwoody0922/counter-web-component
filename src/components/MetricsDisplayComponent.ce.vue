@@ -1,7 +1,7 @@
 <template>
   <div class="metric-display min-w-full">
     <div class="text-9xl text-center">{{ count }}</div>
-    <div class=" text-center">{{ messages.clicked }}</div>
+    <div class="text-center">{{ messages.clicked }}</div>
   </div>
 </template>
 

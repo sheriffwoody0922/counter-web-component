@@ -1,18 +1,58 @@
-# Vue 3 + TypeScript + Vite
+# Vue 3 Counter Web Component
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project implements a Vue3 web component for a counter, utilizing Vite for development, Tailwind CSS for styling, and i18n for internationalization in both English and French. The counter web component is designed to be easily integrated into various projects.
 
-## Recommended IDE Setup
+# Integration with `<counter-card>`
+Enhance your development experience by integrating the versatile `<counter-card>` into your projects. Once implemented, enjoy the flexibility of using this powerful component across various sections of your application with ease. 
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Features
 
-## Type Support For `.vue` Imports in TS
+`Counter Component`: A Vue3 web component featuring a counter with plus and minus buttons for easy incrementing and decrementing.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+`Metrics Display Component`: Displays the current count from the Counter Component in a customizable metric display. The component includes a localized label and a dynamic value.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+`Control Pane Component`: Offers a button to reset the counter in the Counter Component.
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+`Locale Picker Component`: Enables users to switch between English and French, dynamically changing the language for all components.
+
+## Technologies Used
+
+  - [Vue3](https://vuejs.org/)
+  - [Vite](https://vitejs.dev/)
+  - [TailwindCSS](https://tailwindcss.com/)
+  - [Web Component with Vue](https://vuejs.org/guide/extras/web-components)
+  - [Composition API](https://tailwindcss.com/)
+  - [Jest](https://jestjs.io/)
+
+## Installation Prerequisites
+
+Ensure you have the following installed on your system:
+
+- Node `v18.5.0`
+- NPM `v10.2.3`
+
+### Building and running demo
+
+Install dependencies
+
+```
+npm install
+```
+
+to build everything
+
+```
+npm run build
+```
+
+to run demo
+
+```
+npm run dev
+```
+
+to run test
+
+```
+npm run test
+```
