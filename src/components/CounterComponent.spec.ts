@@ -35,12 +35,6 @@ describe('CounterComponent', () => {
     expect(onUpdateCountMock).toHaveBeenCalledWith(0);
   });
 
-//   it('does not call onUpdateCount when decrement button is clicked and count is 0', async () => {
-//     await wrapper.setProps({ count: 0 });
-//     await wrapper.find('button:first-child').trigger('click');
-//     expect(onUpdateCountMock).not.toHaveBeenCalled();
-//   });
-
   it('calls onUpdateCount with incremented value when increment is clicked', async () => {
     await wrapper.find('button:last-child').trigger('click');
     expect(onUpdateCountMock).toHaveBeenCalledWith(1);
