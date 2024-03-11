@@ -1,11 +1,8 @@
-# Vue 3 Counter Web Component
+# Counter Web Component - Vue 3
 
-This project implements a Vue3 web component for a counter, utilizing Vite for development, Tailwind CSS for styling, and i18n for internationalization in both English and French. The counter web component is designed to be easily integrated into various projects.
+Elevate your web applications by integrating the `<counter-card>`, a Vue 3 custom web component. Developed with Vite and styled using Tailwind CSS, this component comes with built-in internationalization support for English and French. The `<counter-card>` is designed for seamless integration into diverse projects and enhances user interaction through its intuitive functionality.
 
-# Integration with `<counter-card>`
-Enhance your development experience by integrating the versatile `<counter-card>` into your projects. Once implemented, enjoy the flexibility of using this powerful component across various sections of your application with ease. 
-
-## Features
+## Key Features
 
 `Counter Component`: A Vue3 web component featuring a counter with plus and minus buttons for easy incrementing and decrementing.
 
@@ -15,12 +12,12 @@ Enhance your development experience by integrating the versatile `<counter-card>
 
 `Locale Picker Component`: Enables users to switch between English and French, dynamically changing the language for all components.
 
-## Technologies Used
+## Technologies Employed
 
   - [Vue3](https://vuejs.org/)
   - [Vite](https://vitejs.dev/)
   - [TailwindCSS](https://tailwindcss.com/)
-  - [Web Component with Vue](https://vuejs.org/guide/extras/web-components)
+  - [Vue Web Component](https://vuejs.org/guide/extras/web-components)
   - [Composition API](https://tailwindcss.com/)
   - [Jest](https://jestjs.io/)
 
@@ -28,8 +25,16 @@ Enhance your development experience by integrating the versatile `<counter-card>
 
 Ensure you have the following installed on your system:
 
-- Node `v18.5.0`
-- NPM `v10.2.3`
+- Node (Version:`v18.5.0` or higher)
+- NPM (Version:`v10.2.3` or higher)
+
+## Clone the Repository
+
+```bash
+  git clone https://github.com/sheriffwoody0922/counter-web-component.git
+
+  cd counter-web-component
+```
 
 ## Installation
 
